@@ -8,27 +8,30 @@
 - Left Neural Foraminal Narrowing 
 - Right Neural Foraminal Narrowing 
 
+5 intervertebral disc levels            |  Severity
+:-------------------------:|:-------------------------:
 ![](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/static/Neural-Foraminal-Narrowing.png)  |  ![](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/static/Neural-Foraminal-Narrowing-Severity.png)
 
 - Left Subarticular Stenosis 
 - Right Subarticular Stenosis 
 
+5 intervertebral disc levels            |  Severity
+:-------------------------:|:-------------------------:
 ![](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/static/Subarticular-Stenosis.png)  |  ![](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/static/Subarticular-Stenosis-Severity.png)
 
 - Spinal Canal Stenosis 
 
+5 intervertebral disc levels            |  Severity
+:-------------------------:|:-------------------------:
 ![](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/static/Canal-Stenosis.png)  |  ![](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/static/Canal-Stenosis-Severity.png)
 
-### Secondly
-
-Then, for each condition, classify the 5 intervertebral disc levels (IDL) = location of the compression
+For each condition, classify the 5 intervertebral disc levels (IDL) = location of the compression
 - L1/L2
 - L2/L3
 - L3/L4
 - L4/L5
 - L5/S1
 
-### Finally
 Classify how severe of compression of the spinal cord due to foramina/subarticular exit (severity score - SS) weights
 - Normal/mild = 1
 - Moderate = 2
