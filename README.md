@@ -31,7 +31,7 @@ So, essentially, for each observation, we have 5*5=25 output variables, each of 
 2. Develop essential functions to deal with data like making metadata, showing images, and coordinating directories: [rsna-lumbar-keyfunctions.ipynb](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/rsna-lumbar-keyfunctions.ipynb)
 3. Examine the coordination of pathology and look into several images given the previously built functions: [rsna-lumbar-imageprocessing-and-coordpathology.ipynb](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/rsna-lumbar-imageprocessing-and-coordpathology.ipynb)
 4. Convert the DICOM images into PNG for convenience and select subsets of the images for training: [rsna-making-dataset-png.ipynb](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/rsna-making-dataset-png.ipynb)
-5. Make Dataset, DataLoader, transformations, define a ResNet50 model and training loop with k=5 cross validation: (to be updated)
+5. Make Dataset, DataLoader, transformations, define a ResNet50 model and training loop on AdamW optimizer and cuda GPU T4x2: [rsna-training-resnet50-gpu.ipynb](https://github.com/quanghieu31/lumbar-spine-degenerative-classification/blob/main/rsna-training-resnet50-gpu.ipynb). I will add more details to this. I had such a great time to learn from other notebooks on how to handle the data/image processing problem that involves multiple outcome variables for 3-class classification.
 
 
 ## Some visual info:
